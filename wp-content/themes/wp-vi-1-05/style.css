@@ -899,4 +899,9 @@ ul.my-link-list {
 	list-style: none;
 	margin: 0;
 	/*padding: 0;*/
+	/*background-color: red;*/
+}
+.my-link-list a {
+	color: #7CA821;
+	text-decoration: none;
 }
