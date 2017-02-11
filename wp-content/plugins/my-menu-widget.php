@@ -25,11 +25,20 @@ class My_Menu_Widget extends WP_Widget
 			)
 		);
 	}
-	function form($instance) {
-		
+	function form($instance, $title) {
+		$defaults = array(
+				'title' => 'Простой заголовок'
+		);
+		?>
+		<p>
+			<label for="<?php echo $this->get_field_id('title') ?>">Заголовок</label>
+			<input type="text" name="<?php echo $this->get_field_name('title') ?>" id="<?php echo $this->get_field_id('title') ?>" value="<?php if(null !== $title) echo esc_attr($title); ?>" class="my-widget-title">
+		</p>
+		<?php
 	}
 	function update($new_instance, $old_instance) {
-
+		$new_instance['title'] = !empty($new_instance['title']) ? strip_tags($new_instance['title']) : '';
+		return $new_instance;
 	}
 	function widget($args, $instance) {
 

@@ -894,7 +894,9 @@ object {
 	display: block;
 }
 
-/* My Style*/
+/*
+* ***************   My Style  ************
+*/
 ul.my-link-list {
 	list-style: none;
 	margin: 0;
@@ -905,4 +907,22 @@ ul.my-link-list {
 	color: #7CA821;
 	text-decoration: none;
 	font-size: 20px;
+}
+#content {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+#primary {
+	float: left;
+	display: block;
+	margin-right: 250px;
+	width: 800px;
+}
+aside#secondary {
+	float: right;
+	width: 350px;
+	padding: 10px;
+	background: #f0f0f0;
+	display: block;
 }
