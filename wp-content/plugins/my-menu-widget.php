@@ -6,10 +6,6 @@ Author: Andrew Melnik
 Author URI:
 License: GPLv2
 */
-
-/**
-* 
-*/
 class My_Menu_Widget extends WP_Widget
 {
 	
@@ -21,23 +17,38 @@ class My_Menu_Widget extends WP_Widget
 			__('My Menu Widget', 'wp-vi-1-05'),
 			//widget options
 			array (
-				'description' => __('My Menu Widget, list of menu', 'wp-vi-1-05')
+				'description' => __('Виджет для меню с иерархией', 'wp-vi-1-05')
 			)
 		);
 	}
-	function form($instance, $title) {
+	function form($instance) {
 		$defaults = array(
-				'title' => 'Простой заголовок'
+				'title' => __('Простой заголовок', example)
 		);
 		?>
 		<p>
 			<label for="<?php echo $this->get_field_id('title') ?>">Заголовок</label>
-			<input type="text" name="<?php echo $this->get_field_name('title') ?>" id="<?php echo $this->get_field_id('title') ?>" value="<?php if(null !== $title) echo esc_attr($title); ?>" class="my-widget-title">
+			<input type="text" name="<?php echo $this->get_field_name('title') ?>" 
+			id="<?php echo $this->get_field_id('title') ?>" 
+			value="<?php echo $instance['title']; ?>" class="widefat">
+		</p>
+		<?php $menus = wp_get_nav_menus(); ?> 
+		<p>
+			<label for="<?php echo $this->get_field_id('menu_for_output'); ?>">Выберите меню</label>
+			<select name="<?php echo $this->get_field_name('menu_for_output'); ?>" id="<?php echo $this->get_field_id('menu_for_output'); ?>">
+			<?php 
+				foreach ($menus as $key_menu) {
+					echo '<options value="'.intval($key_menu->term_id) . '"' . selected($instance['menu_for_output'], $key_menu->term_id, false) . '>' . $key_menu->name . "</options>\n";
+				}
+			?>	
+			</select>
 		</p>
 		<?php
 	}
 	function update($new_instance, $old_instance) {
-		$new_instance['title'] = !empty($new_instance['title']) ? strip_tags($new_instance['title']) : '';
+		$instance = $old_instance;
+		$instance['title'] = strip_tags($new_instance['title']) ;
+		$instance['menu_for_output'] = strip_tags($new_instance['menu_for_output']);
 		return $new_instance;
 	}
 	function widget($args, $instance) {

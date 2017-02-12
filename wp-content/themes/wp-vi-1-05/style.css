@@ -916,8 +916,8 @@ ul.my-link-list {
 #primary {
 	float: left;
 	display: block;
-	margin-right: 250px;
-	width: 800px;
+/*	margin-right: 250px;*/
+	width: 700px;
 }
 aside#secondary {
 	float: right;
