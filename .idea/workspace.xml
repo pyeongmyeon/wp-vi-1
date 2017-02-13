@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ceb4a8-c0ea-49c4-9803-7587bbeb600b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/post_publish_email_send/post_publish_email_send.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-post-sign.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php" />
     </list>
@@ -198,8 +196,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="185" column="40" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="196" column="41" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
               <folding>
                 <element signature="e#6#154#0#PHP" expanded="true" />
               </folding>
@@ -457,7 +455,7 @@
       <workItem from="1486671834752" duration="1118000" />
       <workItem from="1486810852432" duration="6669000" />
       <workItem from="1486988347895" duration="8417000" />
-      <workItem from="1487005525568" duration="3610000" />
+      <workItem from="1487005525568" duration="5096000" />
     </task>
     <task id="LOCAL-00001" summary="new style">
       <created>1486672852870</created>
@@ -480,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486997720146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4 zan">
+      <created>1487010193306</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487010193306</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19814000" />
+    <option name="totallyTimeSpent" value="21300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="703" y="109" width="1210" height="776" extended-state="0" />
@@ -525,7 +530,8 @@
     <MESSAGE value="new style" />
     <MESSAGE value="from home 1" />
     <MESSAGE value="from home 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="from home 2" />
+    <MESSAGE value="4 zan" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 zan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1174,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="185" column="40" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="196" column="41" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
           <folding>
             <element signature="e#6#154#0#PHP" expanded="true" />
           </folding>

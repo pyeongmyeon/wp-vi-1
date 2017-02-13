@@ -170,14 +170,37 @@ add_post_type_support('page', 'post-formats');
 
 /************** New function for customazer *************************/
 function course_register_theme_customizer( $wp_customize ) {
+	// Add new section ....Все 3 части єкшена для новой секции - обязательні
 	// Add new section
 	$wp_customize->add_section(
 		'course_display_options',
 		array(
-			'title'     => 'Display Options',
-			'priority'  => 200
+			'title'     =>  'TEST',
+			'priority'  => 200,
 		)
 	);
+
+	//Add settings
+	$wp_customize->add_setting(
+		'course_link_header',
+		array(
+			'section' => 'course_display_options',
+			'default'     => 'TRUE',
+			'transport'   => 'postMessage',
+		)
+	);
+
+	// add control
+	$wp_customize->add_control(
+		'course_link_header',
+		array(
+			'label'      => 'TEST my TEST',
+			'section'    => 'course_display_options',
+			'type'   => 'cheackbox'
+		)
+
+	);
+
 	//Add settings
 	$wp_customize->add_setting(
 		'course_link_color',
