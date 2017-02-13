@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ceb4a8-c0ea-49c4-9803-7587bbeb600b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/sidebar-footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css" />
     </list>
     <ignored path="wp-vi-1-05.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="15317">
               <caret line="901" column="14" selection-start-line="901" selection-start-column="14" selection-end-line="901" selection-end-column="14" />
               <folding />
             </state>
@@ -41,8 +38,34 @@
       <file leaf-file-name="my-menu-widget.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#6#139#0#PHP" expanded="false" />
+                <marker date="1486997695734" expanded="true" signature="2107:2152" ph="..." />
+                <marker date="1486997695734" expanded="true" signature="2334:2344" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-subpages-widget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/list-subpages-widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="59" column="16" selection-start-line="54" selection-start-column="12" selection-end-line="59" selection-end-column="16" />
+              <folding>
+                <element signature="e#707#718#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small_thumb_widget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/small_thumb_widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -51,9 +74,41 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <marker date="1486988386464" expanded="true" signature="9:152" ph=" wp-vi-1-05 functions and definitions ..." />
+                <marker date="1486988386464" expanded="true" signature="204:2439" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="208:495" ph=" Sets up theme defaults and registers support for various WordPress features. ..." />
+                <marker date="1486988386464" expanded="true" signature="527:2437" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="531:791" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="985:1200" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1242:1404" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1520:1709" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1527:1707" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1716:1821" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1843:1942" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="1859:1940" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="2022:2164" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="2058:2162" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="2505:2687" ph=" Set the content width in pixels, based on the theme's design and stylesheet. ..." />
+                <marker date="1486988386464" expanded="true" signature="2727:2807" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="2879:3003" ph=" Register widget area. ..." />
+                <marker date="1486988386464" expanded="true" signature="3042:3829" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3061:3415" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3068:3413" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3436:3826" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3443:3824" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3544:3645" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="3892:3925" ph=" Enqueue scripts and styles. ..." />
+                <marker date="1486988386464" expanded="true" signature="3959:4419" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="4375:4417" ph="..." />
+                <marker date="1486988386464" expanded="true" signature="4483:4525" ph=" Implement the Custom Header feature. ..." />
+                <marker date="1486988386464" expanded="true" signature="4593:4635" ph=" Custom template tags for this theme. ..." />
+                <marker date="1486988386464" expanded="true" signature="4703:4772" ph=" Custom functions that act independently of the theme templates. ..." />
+                <marker date="1486988386464" expanded="true" signature="4833:4860" ph=" Customizer additions. ..." />
+                <marker date="1486988386464" expanded="true" signature="4925:4963" ph=" Load Jetpack compatibility file. ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +116,7 @@
       <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="51">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#6#178#0#PHP" expanded="true" />
@@ -73,21 +128,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="102">
               <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-subpages-widget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/list-subpages-widget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-              <folding>
-                <element signature="e#707#718#0#PHP" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +161,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="12" />
+    <option name="x" value="462" />
+    <option name="y" value="133" />
     <option name="width" value="1365" />
     <option name="height" value="798" />
   </component>
@@ -148,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,8 +263,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-vi-1-05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-vi-1-05" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -263,7 +324,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/plugins/list-subpages-widget.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -271,7 +334,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/plugins/small_thumb_widget.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -279,24 +342,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee-100x100.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee-1024x614.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee-150x150.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee-300x180.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee-768x461.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/coffee.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso-100x100.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso-1024x614.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso-150x150.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso-300x180.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso-768x461.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/espresso.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich-100x100.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich-1024x614.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich-150x150.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich-300x180.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich-768x461.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/uploads/2017/02/sandwich.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -394,6 +439,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -418,7 +469,8 @@
       <option name="presentableId" value="Default" />
       <updated>1486671829296</updated>
       <workItem from="1486671834752" duration="1118000" />
-      <workItem from="1486810852432" duration="6613000" />
+      <workItem from="1486810852432" duration="6669000" />
+      <workItem from="1486988347895" duration="5747000" />
     </task>
     <task id="LOCAL-00001" summary="new style">
       <created>1486672852870</created>
@@ -427,21 +479,28 @@
       <option name="project" value="LOCAL" />
       <updated>1486672852870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="from home 1">
+      <created>1486842897364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486842897364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7731000" />
+    <option name="totallyTimeSpent" value="13534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="12" width="1365" height="798" extended-state="0" />
+    <frame x="462" y="133" width="1365" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1971831" sideWeight="0.49516907" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5037594" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.49624062" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.49624062" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20684293" sideWeight="0.5048309" order="2" side_tool="true" content_ui="tabs" />
@@ -470,13 +529,102 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new style" />
-    <option name="LAST_COMMIT_MESSAGE" value="new style" />
+    <MESSAGE value="from home 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="from home 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15317">
+          <caret line="901" column="14" selection-start-line="901" selection-start-column="14" selection-end-line="901" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#139#0#PHP" expanded="false" />
+            <marker date="1486997695734" expanded="true" signature="2107:2152" ph="..." />
+            <marker date="1486997695734" expanded="true" signature="2334:2344" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486988386464" expanded="true" signature="9:152" ph=" wp-vi-1-05 functions and definitions ..." />
+            <marker date="1486988386464" expanded="true" signature="204:2439" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="208:495" ph=" Sets up theme defaults and registers support for various WordPress features. ..." />
+            <marker date="1486988386464" expanded="true" signature="527:2437" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="531:791" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="985:1200" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1242:1404" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1520:1709" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1527:1707" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1716:1821" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1843:1942" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1859:1940" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2022:2164" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2058:2162" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2505:2687" ph=" Set the content width in pixels, based on the theme's design and stylesheet. ..." />
+            <marker date="1486988386464" expanded="true" signature="2727:2807" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2879:3003" ph=" Register widget area. ..." />
+            <marker date="1486988386464" expanded="true" signature="3042:3829" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3061:3415" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3068:3413" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3436:3826" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3443:3824" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3544:3645" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3892:3925" ph=" Enqueue scripts and styles. ..." />
+            <marker date="1486988386464" expanded="true" signature="3959:4419" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="4375:4417" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="4483:4525" ph=" Implement the Custom Header feature. ..." />
+            <marker date="1486988386464" expanded="true" signature="4593:4635" ph=" Custom template tags for this theme. ..." />
+            <marker date="1486988386464" expanded="true" signature="4703:4772" ph=" Custom functions that act independently of the theme templates. ..." />
+            <marker date="1486988386464" expanded="true" signature="4833:4860" ph=" Customizer additions. ..." />
+            <marker date="1486988386464" expanded="true" signature="4925:4963" ph=" Load Jetpack compatibility file. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#178#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/list-subpages-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+          <folding>
+            <element signature="e#707#718#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -489,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,9 +650,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1486988386464" expanded="true" signature="9:152" ph=" wp-vi-1-05 functions and definitions ..." />
+            <marker date="1486988386464" expanded="true" signature="204:2439" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="208:495" ph=" Sets up theme defaults and registers support for various WordPress features. ..." />
+            <marker date="1486988386464" expanded="true" signature="527:2437" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="531:791" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="985:1200" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1242:1404" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1520:1709" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1527:1707" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1716:1821" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1843:1942" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="1859:1940" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2022:2164" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2058:2162" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2505:2687" ph=" Set the content width in pixels, based on the theme's design and stylesheet. ..." />
+            <marker date="1486988386464" expanded="true" signature="2727:2807" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="2879:3003" ph=" Register widget area. ..." />
+            <marker date="1486988386464" expanded="true" signature="3042:3829" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3061:3415" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3068:3413" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3436:3826" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3443:3824" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3544:3645" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="3892:3925" ph=" Enqueue scripts and styles. ..." />
+            <marker date="1486988386464" expanded="true" signature="3959:4419" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="4375:4417" ph="..." />
+            <marker date="1486988386464" expanded="true" signature="4483:4525" ph=" Implement the Custom Header feature. ..." />
+            <marker date="1486988386464" expanded="true" signature="4593:4635" ph=" Custom template tags for this theme. ..." />
+            <marker date="1486988386464" expanded="true" signature="4703:4772" ph=" Custom functions that act independently of the theme templates. ..." />
+            <marker date="1486988386464" expanded="true" signature="4833:4860" ph=" Customizer additions. ..." />
+            <marker date="1486988386464" expanded="true" signature="4925:4963" ph=" Load Jetpack compatibility file. ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,13 +692,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="102">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
@@ -527,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="15317">
           <caret line="901" column="14" selection-start-line="901" selection-start-column="14" selection-end-line="901" selection-end-column="14" />
           <folding />
         </state>
@@ -537,15 +715,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#168#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-vi-1-05/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="51">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="e#6#178#0#PHP" expanded="true" />
@@ -553,10 +728,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/small_thumb_widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/list-subpages-widget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+        <state relative-caret-position="340">
+          <caret line="59" column="16" selection-start-line="54" selection-start-column="12" selection-end-line="59" selection-end-column="16" />
           <folding>
             <element signature="e#707#718#0#PHP" expanded="false" />
           </folding>
@@ -565,9 +748,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/my-menu-widget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#139#0#PHP" expanded="false" />
+            <marker date="1486997695734" expanded="true" signature="2107:2152" ph="..." />
+            <marker date="1486997695734" expanded="true" signature="2334:2344" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
