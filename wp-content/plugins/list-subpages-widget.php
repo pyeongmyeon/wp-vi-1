@@ -87,16 +87,16 @@ function check_for_page_tree() {
 				// open a list with the ancestor page at the top
 				?>
 				<ul class="page-tree">
-				<?php // list ancestor page ?>
-				<li class="ancestor">
-				<a href="<?php echo get_permalink( $ancestor ); ?>"><?php echo
-				get_the_title( $ancestor ); ?></a>
-				</li>
-				<?php
-				// use wp_list_pages to list subpages of ancestor or current page
-				wp_list_pages( $args );;
-				// close the page-tree list
-				?>
+					<?php // list ancestor page ?>
+					<li class="ancestor">
+					<a href="<?php echo get_permalink( $ancestor ); ?>"><?php echo
+					get_the_title( $ancestor ); ?></a>
+					</li>
+					<?php
+					// use wp_list_pages to list subpages of ancestor or current page
+					wp_list_pages( $args );;
+					// close the page-tree list
+					?>
 				</ul>
 				<?php
 				}
