@@ -10,7 +10,7 @@
 //global $post;
 function category_delimetr($title)
 {
-	$title = $title . ' - ' . $selected_category;
+	$title = $title . ' /&*/ ' . $selected_category;
 	return $title;
 }
 add_filter('the_title', 'category_delimetr');
@@ -59,25 +59,29 @@ class My_Category_Delimiter extends WP_Widget
 			<?php 
 
 				foreach ($catt as $category_key) {
-					echo '<option value="'.intval($category_key->term_id) . '"' . selected($instance['category_for_delimetr'], $category_key->term_id, false) . '>' . $category_key->name . "</option>\n";
+					$option = '<option value="'.intval($category_key->term_id) . '"';
+					$option .= selected($instance['category_for_delimetr'], $category_key->term_id, false);
+					$option .= '>' . $category_key->name . "</option>\n";
+					echo $option;
+
+//					echo '<option value="'.intval($category_key->term_id) . '"' . selected($instance['category_for_delimetr'], $category_key->term_id, false) . '>' . $category_key->name . "</option>\n";
+				//	$category_name = $category_key->name;
 
 				}
-				//$selected_category = $instance['category_for_delimetr'];
+				
+				$category_name = $instance['category_for_delimetr'];
 				//return $selected_category;
 			?>
 			</select>
+			<label><?php echo "Тут ".$category_name; ?></label>
 		</p>
 	<?php
 	}
+
 	function widget($args, $instance) {
-		$selected_category = $instance['category_for_delimetr'];
-	}
-	public function sel_cat($instance) {
 //		$selected_category = $instance['category_for_delimetr'];
-		$title = $title . ' - ' . $selected_category;
-		return $title;
-		
 	}
+
 }
 
 function register_my_category_delimetr() {
